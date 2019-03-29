@@ -1,2 +1,2 @@
 # rospy_example
-For own use.
+Mainly for own purpose.
