@@ -11,8 +11,8 @@ def pub():
 	rate = rospy.Rate(10)
 	while not rospy.is_shutdown():
 		test_str = "Testing communcation %s" %rospy.get_time()
-		rospy.loginfo(hello_str)
-		pub.publish(hello_str)
+		rospy.loginfo(test_str)
+		pub.publish(test_str)
 		rate.sleep()
 
 
